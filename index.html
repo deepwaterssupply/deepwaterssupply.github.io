@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fathom &amp; Fin — Marine Apparel &amp; Aquarium Design</title>
+<meta name="description" content="Marine-inspired apparel and custom aquarium design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Fathom scale: the depth gauge that tracks scroll position down the left edge -->
+<aside class="fathom" aria-hidden="true">
+  <div class="fathom__rail">
+    <div class="fathom__marker" id="fathomMarker"></div>
+  </div>
+  <div class="fathom__readout" id="fathomReadout">0m</div>
+</aside>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">Fathom &amp; Fin</a>
+  <nav class="nav__links">
+    <a href="#apparel">Apparel</a>
+    <a href="#aquariums">Aquariums</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero__eyebrow">Surface — 0m</p>
+    <h1 class="hero__title">Built for the<br>water's edge.</h1>
+    <p class="hero__sub">Marine-inspired clothing and one-of-a-kind aquarium design, made by people who'd rather be near the water than anywhere else.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#apparel">Shop apparel</a>
+      <a class="btn btn--ghost" href="#aquariums">See tank design</a>
+    </div>
+  </section>
+
+  <section class="lane" id="apparel">
+    <div class="lane__head">
+      <p class="lane__depth">12m</p>
+      <h2 class="lane__title">Apparel</h2>
+      <p class="lane__copy">Everyday pieces shaped by reef lines, current charts, and old dive logs. Built to hold up outside, look right inside.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="card__media" data-tone="a"></div>
+        <h3 class="card__title">Reef Line Tee</h3>
+        <p class="card__copy">Heavyweight cotton, screen-printed with a hand-drawn coral motif.</p>
+        <p class="card__price">Coming soon</p>
+      </article>
+      <article class="card">
+        <div class="card__media" data-tone="b"></div>
+        <h3 class="card__title">Current Chart Hoodie</h3>
+        <p class="card__copy">A wearable take on tide and current mapping, printed at the seam.</p>
+        <p class="card__price">Coming soon</p>
+      </article>
+      <article class="card">
+        <div class="card__media" data-tone="c"></div>
+        <h3 class="card__title">Dive Log Cap</h3>
+        <p class="card__copy">Low-profile cap with an embroidered depth marker on the brim.</p>
+        <p class="card__price">Coming soon</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="lane lane--alt" id="aquariums">
+    <div class="lane__head">
+      <p class="lane__depth">28m</p>
+      <h2 class="lane__title">Aquarium Design</h2>
+      <p class="lane__copy">Custom tanks planned around your space, your stock, and how you actually want to live with it. From first sketch to final scape.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="card__media" data-tone="d"></div>
+        <h3 class="card__title">Planted Freshwater</h3>
+        <p class="card__copy">Layered hardscape and planting plans built around your room's light.</p>
+        <p class="card__price">By consultation</p>
+      </article>
+      <article class="card">
+        <div class="card__media" data-tone="e"></div>
+        <h3 class="card__title">Reef &amp; Saltwater</h3>
+        <p class="card__copy">Full systems design — filtration, flow, and livestock compatibility.</p>
+        <p class="card__price">By consultation</p>
+      </article>
+      <article class="card">
+        <div class="card__media" data-tone="f"></div>
+        <h3 class="card__title">Built-In &amp; Custom</h3>
+        <p class="card__copy">Wall-set and furniture-integrated tanks, designed around your floor plan.</p>
+        <p class="card__price">By consultation</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <p class="lane__depth">40m</p>
+    <h2 class="about__title">The story so far</h2>
+    <p class="about__copy">Fathom &amp; Fin started from two things that don't usually share a shop: a closet full of hand-printed tees and a string of fish tanks that kept getting more ambitious. Turns out both come from the same place — paying attention to water. This site is brand new and still being built out, so check back as more pieces and projects go live.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="lane__depth">∞</p>
+    <h2 class="contact__title">Get in touch</h2>
+    <p class="contact__copy">Have a question, a custom tank in mind, or just want to know when apparel drops? Reach out.</p>
+    <a class="btn btn--primary" href="mailto:hello@example.com">hello@example.com</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Fathom &amp; Fin. Site under construction.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
